@@ -33,13 +33,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			</script>
 			<!-- //FlexSlider-->
-
+<style>
+	ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+	</style>
 
 </head>
 <body>
-		<!---header--->
+	
+		<!---header-->
 			<div class="header-section">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="head-top">
 						<div class="social-icon">
 							<a href="#"><i class="icon"></i></a>
@@ -51,14 +56,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="email">
 						<ul>
 							<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>Email: <a href="mailto:info@example.com">info@example.com</a> </li>
-							<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
-							<li><i class="glyphicon glyphicon-lock" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal1">Register</a></li>
+							<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>Phone: <a href="mailto:info@example.com">+123456789</a> </li>
+							
 						</ul>
 						</div>
 						<div class="clearfix"></div>
 					</div>
-						<nav class="navbar navbar-default">
-					<!---Brand and toggle get grouped for better mobile display--->
+					<nav class="navbar navbar-default">
+					<!---Brand and toggle get grouped for better mobile display-->
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 								<span class="sr-only">Toggle navigation</span>
@@ -72,79 +77,60 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-									<!--<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages<span class="caret"></span></a>
-											<ul class="dropdown-menu">
-												<li><a href="about.html">About</a></li>
-												<li><a href="services.html">Services</a></li>
-												<li><a href="agents.html">Agents</a></li>
-												<li><a href="forrent.html">For Rent</a></li>
-												<li><a href="forsale.html">For Sale</a></li>
-												<li><a href="pricing.html">Pricing</a></li>
-												<li><a href="faqs.html">FAQs</a></li>
-												<li><a href="idxpress.html">IDXpress</a></li>
-												<li><a href="terms.html">Terms of Use</a></li>
-												<li><a href="privacy.html">Privacy Policy</a></li>
+								<li class="active"><a href="index.html"> <i class="glyphicon glyphicon-home btn-sm"></i>Home</a></li>
+     								<li class="dropdown ">
+										<a  class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="SVG/notebook.svg" class="cIcon">About Us<span class="caret"></span></a>
+											<ul class="dropdown-menu" role="menu">
+												<li><a href="company.html"><img src="SVG/notebook.svg" class="cIcon">Company Profile</a></li>
+												<li><a href="ehs.html"><img src="SVG/email-open.svg" class="cIcon">EHS Policy</a></li>
+												<li><a href="strength.html"><img src="SVG/notebook.svg" class="cIcon">Our Strength</a></li>
+												<li><a href="founder.html"><img src="SVG/email-open.svg" class="cIcon">Founder Credentials</a></li>
 											</ul>
-									</li>-->
-								<li class="dropdown ">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
-											<ul class="dropdown-menu">
-												<li><a href="company.html">Company Profile</a></li>
-												<li><a href="ehs.html">EHS Policy</a></li>
-												<li><a href="strength.html">Our Strength</a></li>
-												<li><a href="founder.html">Founder Credentials</a></li>
-											</ul>
-									</li>
-									<li class="dropdown ">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-											<ul class="dropdown-menu">
-													<li><a href="ongoing.html">On-going Project</a></li>
-
-												<li><a href="upcoming.html">Upcoming Projects</a></li>
-												<li><a href="completed.html">Completed Projects</a></li>
-											</ul>
-									</li>
-									<li class="dropdown ">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Residential<span class="caret"></span></a>
-											<ul class="dropdown-menu">
-											<li><a href="">Bivab Aangan</a></li>
-											</ul>
-									</li>
-									<li class="dropdown ">
-									
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commercial<span class="caret"></span></a>
-											<!--<ul class="dropdown-menu">
-											<li><a href="defaultvariation.html">Default – Variation</a></li>
-												<li><a href="agentinsidebarvariation.html">Agent in Sidebar - Variation</a></li>
-												<li><a href="galleryvariation.html">Gallery - Variation</a></li>
-											</ul>-->
 									</li>
 									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tools <span class="caret"></span></a>
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><img src="SVG/paper-award.svg" class="cIcon">Projects<span class="caret"></span></a>
 											<ul class="dropdown-menu">
-											<li><a href="emi.html">EMI Calculator</a></li>
-												<li><a href="check.html">Checklist of Loan</a></li>
-												<li><a href="faq.html">FAQ</a></li>
+													<li><a href="ongoing.html"><img src="SVG/notebook.svg" class="cIcon">On-going Project</a></li>
+
+												<li><a href="upcoming.html"><img src="SVG/printer.svg" class="cIcon">Upcoming Projects</a></li>
+												<li><a href="completed.html"><img src="SVG/notebook.svg" class="cIcon">Completed Projects</a></li>
 											</ul>
 									</li>
-								
-								<li><a href="contac.html">Contact</a></li>
+									<li class="dropdown ">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="SVG/paperplane.svg" class="cIcon">Residential<span class="caret"></span></a>
+											<ul class="dropdown-menu">
+											<li><a href="#"><img src="SVG/eye.svg" class="cIcon">Bivab Aangan</a></li>
+											</ul>
+									</li>
+									
+									<li class="dropdown ">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="SVG/checklist.svg" class="cIcon">Commercial<span class="caret"></span></a>
+											<ul class="dropdown-menu">
+											<li><a href="#"><img src="SVG/notebook.svg" class="cIcon">Bivab Aangan</a></li>
+											</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="SVG/paperplane.svg">Tools <span class="caret"></span></a>
+											<ul class="dropdown-menu">
+											<li><a href="emi.html"><img src="SVG/notebook.svg" class="cIcon">EMI Calculator</a></li>
+												<li><a href="check.html"><img src="SVG/eye.svg" class="cIcon">Checklist of Loan</a></li>
+												<li><a href="faq.html"><img src="SVG/email-open.svg" class="cIcon">FAQ</a></li>
+											</ul>
+									</li>
+								<li class="dropdown" ><a href="contac.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="SVG/address-card.svg">Contact</a></li>
 							</ul>
-						<!--	<div class="phone">
-							<span><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>1-999-4563-555</span>
-							</div>-->
-							<div class="clearfix"></div>
+						
+						   <div class="clearfix"></div>
 						</div>
 					</nav>
 				</div>
+	
 			</div>
+			
 		<!---header--->
-		<!---banner--->
-		<div class="banner-section">
+		<!---banner--->		<div class="banner-section">
 			<div class="container">
 				
 			</div>

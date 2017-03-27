@@ -37,7 +37,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 .header-section {
-        background: #333d47;
+        background: #b3d1ff;
 }
 .head-top {
     padding: .2em 0;
@@ -87,7 +87,7 @@ body{
     display: inline-block;
 	margin-right: .9em;
     padding-top: .5em;
-	color: #C6C7C7;
+	color: #000;
 }
 .email ul li i {
     font-size: 1.2em;
@@ -97,7 +97,7 @@ body{
 }
 .email ul li a {
     font-size: 1.1em;
-    color: #C6C7C7;
+    color: #000;
 	text-decoration: none;
 	outline: none;
 }
@@ -112,7 +112,7 @@ body{
 .navbar-brand h1 a {
     font-size: 1.1em;
     text-decoration: none;
-	color: #FFFFFF;
+	color: #293d3d;
 	font-family: 'PT Sans', sans-serif;
 	font-style: italic;
 }
@@ -124,7 +124,7 @@ body{
     min-height: 50px;
     margin-bottom: 0;
     border: none !important;
-	background: #333d47;
+	background: #b3d1ff;
 	padding-top: 1em;
 }
 .navbar-nav {
@@ -136,27 +136,13 @@ div#bs-example-navbar-collapse-1 {
     float: left;
     width: 74%;
 }
-.phone {
-    float: right;
-    width: 30%;
-	background: #2da9e1;
-	padding: .7em .5em;
-}
-.phone i {
-    font-size: 1.5em;
-    color: #fff;
-    vertical-align: text-bottom;
-}
-.phone span {
-    font-size: 1.8em;
-    color: #fff;
-}
+
 .navbar-collapse {
     padding-right: 0;
     padding-left: 0;
 }
 .navbar-default .navbar-nav > li > a {
-       color: #C6C7C7;
+       color: #000;
 }
 .navbar-nav > li > a {
     padding: 1.2em .8em;
@@ -164,15 +150,15 @@ div#bs-example-navbar-collapse-1 {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #faa43d;
+    background-color:#001f4d;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
-    background-color: #faa43d;
+    background-color:#003399;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #fff;
-    background-color: #faa43d;
+    background-color: #003399;
 }
 .dropdown-menu > li > a {
     display: block;
@@ -187,7 +173,7 @@ div#bs-example-navbar-collapse-1 {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     color: #000;
     text-decoration: none;
-    background: #E69432;
+    background: #99bbff;
 }
 .navbar-nav > li > .dropdown-menu {
     margin-top: 20px;
@@ -308,7 +294,7 @@ a.button {
 	-ms-transition:0.5s all;
 }
 a.button:hover {
-    background: #FAA43D;
+    background: #003399;
 }
 /* Shutter Out Horizontal */
 .hvr-shutter-out-horizontal {
@@ -621,23 +607,23 @@ div#owl-demo {
     margin-top: 3em;
 }
 .footer-section {
-    background: #d9d9f2;
+    background:#4d4d4d;
     padding: 5em 0;
 }
 .footer-grid h4 {
     font-size: 1.5em;
-    color: #000;
+    color: #00e600;
     margin-bottom: .5em;
 	font-family: 'Righteous', cursive;
 }
 .footer-grid p {
     font-size: 1.4em;
-    color: #777;
+    color: #fff;
     line-height: 1.8em;
 }
 .footer-grid ul li a {
     font-size: 1.2em;
-    color: #777;
+    color: #fff;
     line-height: 1.8em;
 	text-decoration:none;
 }
@@ -645,15 +631,15 @@ div#owl-demo {
     list-style: none;
 }
 .footer-grid ul li a:hover {
-    color: #FAA43D;
+    color: #003399;
 }
 .footer-grid p a {
-    color: #FAA43D;
+    color: #003399;
 }
 .copy-section{
 	padding:2em 0;
 	text-align:center;
-	background: #333d47;
+	background: #80bfff;
 }
 .copy-section p {
 	font-size: 0.9em;
@@ -863,9 +849,9 @@ a.button3 {
 .nav-tabs > li > a {
     margin-right: 0px;
     line-height: 1.42857143;
-    border: 1px solid #FAA43D;
+    border: 1px solid #003399;
     border-radius:0;
-	background: #FAA43D;
+	background: #003399;
 }
 .forsale-grids {
     margin-top: 3em;
@@ -947,7 +933,7 @@ a.button4 {
 }
 .forsale-grid1 h6 {
     font-size: 1.1em;
-    color: #FAA43D;
+    color: #003399;
     font-weight: 600;
     padding-top: .5em;
 }
@@ -1036,7 +1022,7 @@ a.button4 {
 .service-grid i {
     font-size: 2.5em;
     color: #fff;
-    background: #FAA43D;
+    background: #003399;
     padding: .8em;
     border-radius: 50px;
 	border: 5px solid #fff;
@@ -1321,7 +1307,7 @@ p.rule-text {
     font-size: 1em;
     line-height: 1.8em;
     color: #fff;
-    background: #FAA43D;
+    background: #003399;
     padding: 2em;
     margin: 1.5em 0;
 }
@@ -1368,7 +1354,7 @@ p.trad {
     margin: 1em 0;
 }
 .coment-form input[type="submit"] {
-    background: #FAA43D;
+    background: #003399;
     border: none;
     padding: 1em 0;
     width: 13%;
@@ -1610,7 +1596,7 @@ a.view:hover {
     -ms-transition: .5s all;
 }
 .contact-me input[type="submit"]:hover, .contact-me input[type="reset"]:hover {
-    background: #FAA43D;
+    background: #003399;
 }
 /**agentprofile**/
 /**IDXpress**/
@@ -1777,7 +1763,7 @@ ul.bottom-right {
     font-family: 'Righteous', cursive;
     color: #fff;
     padding: 1em 0;
-    background: #FAA43D;
+    background: #34ABE2;
     margin-bottom: 1em;
 }
 .properties-top {
@@ -1840,7 +1826,7 @@ a.button2 {
     padding: .5em 1em;
     border: none;
     color: #fff;
-    background: #faa43d;
+    background: #293d3d;
     outline: none;
     display: block;
     margin: 1em 1.3em;
@@ -2260,7 +2246,7 @@ li.list-group-item1 {
 	margin: 1em 0;
 }
 .contact-grid input[type="submit"] {
-    background: #FAA43D;
+    background: #003399;
     border: none;
     padding: 1em 0;
     width: 22%;
@@ -3043,10 +3029,10 @@ div#bs-example-navbar-collapse-1 {
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
        color: #fff;
-    background-color: #FAA43D;
+    background-color: #003399;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a{
-    color: #C6C7C7;
+    color: #000;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #faa43d;
@@ -3944,5 +3930,5 @@ a.button5 {
 }
 
 .cIcon{
-    background-image:url(../SVG/avatar.svg);
+   color:#fff;
 }
