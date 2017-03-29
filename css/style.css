@@ -176,7 +176,7 @@ div#bs-example-navbar-collapse-1 {
     background: #99bbff;
 }
 .navbar-nav > li > .dropdown-menu {
-    margin-top: 20px;
+    margin-top: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     background: #fff;
@@ -3007,10 +3007,10 @@ div#bs-example-navbar-collapse-1 {
     margin-right: 0px;
 }
 .navbar-nav {
-    float: none;
+        float: left;
     margin: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 .phone {
     float: none;
